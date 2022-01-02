@@ -1,0 +1,34 @@
+.features,
+.service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    /* margin-top: 10px; */
+    margin-left: 0%;
+}
+
+.wheelImage,
+.serviceimage {
+    width: 50%;
+    flex: 50%;
+    border-radius: 12px;
+}
+
+.wheel {
+    width: 300px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.description,
+.servicecontent {
+    width: 50%;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .features {
+        flex-direction: column;
+    }
+}

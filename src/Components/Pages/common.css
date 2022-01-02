@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: yellowgreen;
+    font-family: 'Pushster', cursive;
+    font-size: 2rem;
+    margin: 25px;
+    text-align: center;
+}

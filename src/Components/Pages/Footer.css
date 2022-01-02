@@ -1,0 +1,24 @@
+.Footer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.column-one,
+.column-two,
+.column-three {
+    border: 1px #f1f1f1;
+    margin: 5px;
+    padding: 5px;
+    color: 2px black;
+}
+
+@media (max-width: 800px) {
+    .Footer {
+        flex-direction: column;
+    }
+}
